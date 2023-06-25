@@ -1,0 +1,3 @@
+# 计算机体系结构cache实验
+本次实验为cache代码的实现，其中codegenerating.py生成测试代码，cache.py为主程序，最下方有一些被打了注释以及没有注释的代码，分别对应分步执行和直接运行获得cache性能的函数，plot_mr与plot_wr分别为missing rate， writing rate与三个参数（cache大小， 块大小，相联度）的三维热点图，point_values为具体数值。
+本cache只支持load store，并且默认所有数据大小为4B
